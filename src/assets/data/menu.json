@@ -1,0 +1,9 @@
+[
+  {"label":"Home", "path":"/"},
+  {"label":"Weddings", "path":"wedding"},
+  {"label":"Quinceanera", "path": "quinceanera"},
+  {"label":"Sweet 16", "path": "sweet16"},
+  {"label":"Baby Shower", "path":"babyshower"},
+  {"label":"Baptism", "path":"baptism"},
+  {"label":"First Communion", "path":"communion"}
+]

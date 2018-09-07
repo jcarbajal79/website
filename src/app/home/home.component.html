@@ -1,0 +1,36 @@
+
+
+<div class="jumbotron">
+  <div class="home--float-text">
+  <span class="big--text">Beautiful 100% hand made invitations for your special ocassion.</span>
+  </div>
+</div>
+
+<section id="home">
+
+  <span class="home--title">Experience the beauty of custom made!</span>
+
+  <div class="introduction">
+    <p>We specialize on custom made invitations and decorations. Our goal is to
+      help you create a unique design that will match and makes your event stand out from the very beginning.
+    </p>
+  </div>
+
+  <div class="section--content" *ngFor="let section of homeSections">
+    <div class="section--title">
+      <span>{{section.title}}</span>
+    </div>
+    <hr>
+    <div class="section--70-30">
+      <div class="column--70">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida eget magna at volutpat.
+          Nullam id bibendum ligula, sed consequat lectus. Integer euismod, nisi et sollicitudin mollis, nunc libero porta nisl, quis maximus nisl urna in urna.
+        </p>
+      </div>
+      <div class="column--30">
+        <img src="{{section.url_image}}" width="150" height="200">
+      </div>
+    </div>
+  </div>
+
+  </section>

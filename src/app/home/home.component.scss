@@ -1,0 +1,91 @@
+section#home{
+  width:50%;
+  margin: auto;
+  color: black;
+}
+
+section span.home--title{
+  font-size: 1.6em;
+  color: #4eb295;
+}
+
+div {
+  text-align: left;
+}
+
+div.introduction{
+  font-size: 1.5em;
+  color: #666;
+}
+
+div.section--title {
+  background-color: white;
+  text-align: left;
+  padding:10px;
+  font-size: 1.5em;
+  position: relative;
+  top:25px;
+  left: 20px;
+  display: inline-block;
+}
+
+div.section--70-30{
+  display: flex;
+}
+div.column--30{
+  text-align: center;
+  //margin-top: 10%;
+}
+div.column--70{
+  padding: 0 5px;
+  //width:70%;
+}
+
+div.jumbotron {
+  background-image: url('../../assets/img/coquetybg6.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height:400px;
+  margin-bottom: 75px;
+}
+
+div.home--float-text{
+  position: relative;
+  width: 30%;
+  margin: 0 auto;
+  top: 100px;
+  left: 30%;
+  height: 200px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+  font-family: "Roboto";
+}
+
+.big--text {
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+  .big--text {
+    font-size: 1em;
+  }
+
+  section#home{
+    width: 80%
+  }
+
+  div.introduction {
+    font-size: 1em;
+  }
+
+  div.home--float-text {
+    width: 60%;
+    left: 0px;
+    font-size: 1.5em;
+  }
+}
+
+

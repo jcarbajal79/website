@@ -1,0 +1,16 @@
+
+div.item--list {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+div.catalog--item{
+  width: 100px;
+  height:100px;
+
+  width: 100%;
+}
+
+div.catalog--item > img{
+  width: 200px;
+}

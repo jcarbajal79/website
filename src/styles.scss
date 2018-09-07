@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: "Roboto, Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue";
+  color: #c3c3c3;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+
+
+
+.section--title{
+  //font-size: 1.6em;
+  color: #4eb295;
+
+  background-color: white;
+  text-align: left;
+  padding: 10px;
+  font-size: 1.5em;
+  position: relative;
+  top: 25px;
+  left: 20px;
+  display: inline-block;
+}
+
+.section--content {
+  text-align: left;
+}
+
+section#home {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.invitation_sample {
+  width: 200px;
+}
+
+

@@ -1,0 +1,22 @@
+<div id="company_logo">
+  <img  id="logo" alt="Angular Logo"
+        src="../../assets/img/logo3.png">
+</div>
+<!-- Top Div -->
+<div id="main_menu">
+
+</div>
+<!-- Second Level Menu -->
+
+<div id="navigation_menu">
+  <ul>
+  <li *ngFor="let menuItem of items">
+    <a routerLink="{{menuItem.path}}">{{ menuItem.label }}</a>
+  </li>
+  </ul>
+</div>
+
+<div id="navigation_menu_mobile">
+  <img src="../../assets/img/hamburguer_icon.png" width="50" class="round--icon" onclick="alert('hello')">
+</div>
+

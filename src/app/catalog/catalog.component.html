@@ -1,0 +1,19 @@
+<div class="section--content" *ngFor="let section of catalog">
+  <div class="section--title">
+    <span>{{section.title}}</span>
+  </div>
+  <hr>
+
+  <div class="section_div">
+    <p>Check out the latest trending invitation designs</p>
+  </div>
+
+  <div class="item--list">
+
+    <div class="catalog--item" *ngFor="let item of catalogItems">
+      <img src="../../assets/img/coquetybg5.jpg">
+    </div>
+
+  </div>
+
+</div>
